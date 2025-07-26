@@ -17,3 +17,12 @@ print(story.find("Ritu"))  # Output: 20
 
 name = input("Enter your name: \n ")
 print("Good Afternoon " + name)
+
+#List and tupples
+
+a= [1, 2, 3, 4, 5]
+b= [Apple, Banana, Mango, Orange]   
+print(a[0])  # Output: 1
+print(b[1])  # Output: Banana
+print(a[1:3])  # Output: [2, 3] 
+print(b[1:3])  # Output: [Banana, Mango]
