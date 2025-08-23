@@ -11,9 +11,10 @@
     
 # greet_with_name("Rituraj")
 
-# function with more than 1 input
-# def greet_with(name, location):
-#     print(f"Hello{name}")
-#     print(f"What is it like in {location} ?")
+#function with more than 1 input
+def greet_with(name, location):
+    print(f"Hello{name}")
+    print(f"What is it like in {location} ?")
 
-# greet_with("Rituraj " , "india")
+greet_with("Rituraj " , "india")
+greet_with(name = "india" , location = "Bihar")
